@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>
+            Google Lens VS MobileNet!!!
+        </title>
+        <link rel = "shortcut icon" href = "google-lens.png">
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body background = "google-lens.png">
+        <ol>
+            <div class = "test_image_and_result col-xs-12">
+                <li class = "col-sm-4 col-xs-12 r">
+                    <b>Test Image - </b>
+                    <br><br>
+                    <img src = "glass.jpg" class = "img-responsive">
+                </li>
+                <h5 class = "col-sm-4 col-xs-12 r">
+                    Output on <b>Google Lens</b>
+                    <br><br>
+                    <img src = "glass.jpg" class = "img-responsive">
+                    <br>
+                    <br>
+                    <span class = "g-item"></span>
+                    <span class = "g-accu"></span>
+                </h5>
+                <h5 class = "col-sm-4 col-xs-12 r">
+                    Output on <b>MobileNet</b>
+                    <br><br>
+                    <img src = "glass.jpg" class = "img-responsive">
+                    <br>
+                    <br>
+                    <span class = "m-item"></span>
+                    <span class = "m-accu"></span>
+                </h5>
+                <hr>
+                <span class = "col-xs-12  mini-result r">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4 class = "result"></h4>
+                </span>
+            </div>
+        </ol>
+        <ol>
+            <div class = "test_image_and_result col-xs-12 r">
+                <li class = "col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <br><br>
+                    <img src = "fork.jpg" class = "img-responsive">
+                </li>
+                <hr>
+                <h5 class = "col-sm-4 col-xs-12 r">
+                    Output on <b>Google Lens</b>
+                    <br><br>
+                    <img src = "fork.jpg" class = "img-responsive">
+                    <br>
+                    <br>
+                    <span class = "g-item"></span>
+                    <span class = "g-item"></span>
+                </h5>
+                <h5 class = "col-sm-4 col-xs-12 r">
+                    Output on <b>MobileNet</b>
+                    <br><br>
+                    <img src = "fork.jpg" class = "img-responsive">
+                    <br>
+                    <br>
+                    <span class = "m-item"></span>
+                    <span class = "m-item"></span>
+                </h5>
+                <hr>
+                <span class = "col-xs-12  mini-result r">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4 id = "result2"></h4>
+                </span>
+            </div>
+        </ol>
+        <ol>
+            <div class = "test_image_and_result col-xs-12 r">
+                <li class = "col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <br><br>
+                    <img src = "switchboard.jpg" class = "img-responsive">
+                </li>
+                <hr>
+                <h5 class = "col-sm-4 col-xs-12 r">
+                    Output on <b>Google Lens</b>
+                    <br><br>
+                    <img src = "switchboard.jpg" class = "img-responsive">
+                    <br>
+                    <br>
+                    <span class = "g-item"></span>
+                    <span class = "g-item"></span>
+                </h5>
+                <h5 class = "col-sm-4 col-xs-12 r">
+                    Output on <b>MobileNet</b>
+                    <br><br>
+                    <img src = "switchboard.jpg" class = "img-responsive">
+                    <br>
+                    <br>
+                    <span class = "m-item"></span>
+                    <span class = "m-item"></span>
+                </h5>
+                <hr>
+                <span class = "col-xs-12  mini-result r">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4 id = "result1"></h4>
+                </span>
+            </div>
+        </ol>
+        <ol>
+            <div class = "test_image_and_result col-xs-12">
+                <li class = "col-sm-4 col-xs-12 r">
+                    <b>Test Image - </b>
+                    <br><br>
+                    <img src = "knife.jpg" class = "img-responsive">
+                </li>
+                <h5 class = "col-sm-4 col-xs-12 r">
+                    Output on <b>Google Lens</b>
+                    <br><br>
+                    <img src = "knife.jpg" class = "img-responsive">
+                    <br>
+                    <br>
+                    <span class = "g-item"></span>
+                    <span class = "g-accu"></span>
+                </h5>
+                <h5 class = "col-sm-4 col-xs-12 r">
+                    Output on <b>MobileNet</b>
+                    <br><br>
+                    <img src = "knife.jpg" class = "img-responsive">
+                    <br>
+                    <br>
+                    <span class = "m-item"></span>
+                    <span class = "m-accu"></span>
+                </h5>
+                <span class = "col-xs-12  mini-result r">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4 class = "result"></h4>
+                </span>
+            </div>
+        </ol>
+        <ol>
+            <div class = "test_image_and_result col-xs-12">
+                <li class = "col-sm-4 col-xs-12 r">
+                    <b>Test Image - </b>
+                    <img src = "tv-remote.jpg" class = "img-responsive">
+                </li>
+                <hr>
+                <h5 class = "col-sm-4 col-xs-12 r">
+                    Output on <b>Google Lens</b>
+                    <img src = "tv-remote.jpg" class = "img-responsive">
+                    <br>
+                    <br>
+                    <span class = "g-item"></span>
+                    <span class = "g-accu"></span>
+                </h5>
+                <hr>
+                <h5 class = "col-sm-4 col-xs-12 r">
+                    Output on <b>MobileNet</b>
+                    <img src = "tv-remote.jpg" class = "img-responsive">
+                    <br>
+                    <br>
+                    <span class = "m-item"></span>
+                    <span class = "m-accu"></span>
+                </h5>
+                <hr>
+                <span class = "col-xs-12  mini-result r">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4 class = "result"></h4>
+                </span>
+            </div>
+        </ol>
+        <ol>
+            <div class = "test_image_and_result col-xs-12">
+                <li class = "col-sm-4 col-xs-12 r">
+                    <b>Test Image - </b>
+                    <img src = "clock.jpg" class = "img-responsive">
+                </li>
+                <hr>
+                <h5 class = "col-sm-4 col-xs-12 r">
+                    Output on <b>Google Lens</b>
+                    <img src = "clock.jpg" class = "img-responsive">
+                    <br>
+                    <br>
+                    <span class = "g-item"></span>
+                    <span class = "g-accu"></span>
+                </h5>
+                <h5 class = "col-sm-4 col-xs-12 r">
+                    Output on <b>MobileNet</b>
+                    <img src = "clock.jpg" class = "img-responsive">
+                    <br>
+                    <br>
+                    <span class = "m-item"></span>
+                    <span class = "m-accu"></span>
+                </h5>
+                <hr>
+                <span class = "col-xs-12  mini-result r">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4 class = "result"></h4>
+                </span>
+            </div>
+        </ol>
+        <ol>
+            <div class = "test_image_and_result col-xs-12">
+                <li class = "col-sm-4 col-xs-12 r">
+                    <b>Test Image - </b>
+                    <img src = "pestle-and-mortar.jpg" class = "img-responsive">
+                </li>
+                <hr>
+                <h5 class = "col-sm-4 col-xs-12 r">
+                    Output on <b>Google Lens</b>
+                    <img src = "pestle-and-mortar.jpg" class = "img-responsive">
+                    <br>
+                    <br>
+                    <span class = "g-item"></span>
+                    <span class = "g-accu"></span>
+                </h5>
+                <h5 class = "col-sm-4 col-xs-12 r">
+                    Output on <b>MobileNet</b>
+                    <img src = "pestle-and-mortar.jpg" class = "img-responsive">
+                    <br>
+                    <br>
+                    <span class = "m-item"></span>
+                    <span class = "m-accu"></span>
+                </h5>
+                <hr>
+                <span class = "col-xs-12  mini-result r">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4 class = "result"></h4>
+                </span>
+            </div>
+        </ol>
+    </body>
+</html>
